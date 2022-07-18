@@ -1,0 +1,32 @@
+.template{
+    width: 900px;
+    height: 300px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+
+h2{
+    color: #4c068d !important;
+    weight: 700px;
+}
+
+h4{
+    color: #790fdc !important;
+}
+
+h5, h6{
+    color: #9570b9 !important;
+}
+
+a{
+    color: #790fdc !important;
+}

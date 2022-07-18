@@ -1,0 +1,30 @@
+body{
+    background-color: #FBF3FF !important;
+}
+
+.caixa{
+    background-color: #FBF3FF;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+input{
+    border-color: #725889 !important;
+    border-width: 1px !important;
+    border-radius: 20px !important;
+}
+
+h3{
+    text-align: center;
+}
+
+label, h3{
+    color: #725889 !important;
+}
+
+.box{
+    height: 752px;
+    overflow-y: scroll;
+    background-color: #D7ADD5;
+}
