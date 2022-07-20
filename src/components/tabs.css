@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 3px solid #F9B0C3;
 }
 
 .logo{
@@ -15,18 +16,46 @@
 }
 
 h2{
-    color: #4c068d !important;
+    color: #46467A !important;
     weight: 700px;
 }
 
 h4{
-    color: #790fdc !important;
+    color: #7756C6 !important;
 }
 
-h5, h6{
-    color: #9570b9 !important;
+h5{
+    color: #F9B0C3 !important;
+}
+
+h6{
+    color: #FFC212 !important;
 }
 
 a{
-    color: #790fdc !important;
+    color: #7756C6 !important;
+}
+
+.rs{
+    width: 30px;
+    height: 30px;
+}
+
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: #7756C6 !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.links > h6{
+    margin: 20px;
 }
