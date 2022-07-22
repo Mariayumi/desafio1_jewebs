@@ -22,6 +22,7 @@ h2{
 
 h4{
     color: #7756C6 !important;
+    text-align: center;
 }
 
 h5{
@@ -58,4 +59,8 @@ a{
 
 .links > h6{
     margin: 20px;
+}
+
+.botao{
+    background-color: #46467A !important;
 }

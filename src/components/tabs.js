@@ -1,9 +1,12 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import TypesExample from './button';
 import "./tabs.css";
+
 
 function NoAnimationExample(props) {
     return (
+        
     <Tabs
         defaultActiveKey="home"
         transition={false}
@@ -11,8 +14,8 @@ function NoAnimationExample(props) {
         className="mb-3"
     >
         <Tab eventKey="pri" title="Template 1" >
-            <div className="space">
-                <div className="template row">
+            <div className="space row">
+                <div className="template row col-11" id="template1">
                     <div className="foto col-4">
                         <img src={props.pessoa.logo} className="logo"/>
                     </div>
@@ -32,6 +35,11 @@ function NoAnimationExample(props) {
                         <h6><a href={props.pessoa.linkedin}><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" className="rs"/> Linkedin</a></h6>
                     </div>
                 </div>
+            </div>
+            <hr/>
+            <div className="space row">
+                    <h4 className="col-12">Copie a assinatura para o seu clipboard!</h4>
+                    <TypesExample classe="col-1 botao"/>
             </div>
         </Tab>
         <Tab eventKey="seg" title="Template 2">
@@ -57,6 +65,11 @@ function NoAnimationExample(props) {
                     </div>
                 </div>
         </div>
+        <hr/>
+            <div className="space row">
+                    <h4 className="col-12">Copie a assinatura para o seu clipboard!</h4>
+                    <TypesExample classe="col-1 botao"/>
+            </div>
         </Tab>
         <Tab eventKey="ter" title="Template 3">
         <div class="space">
@@ -82,6 +95,11 @@ function NoAnimationExample(props) {
                     </div>
                 </div>
         </div>
+        <hr/>
+            <div className="space row">
+                    <h4 className="col-12">Copie a assinatura para o seu clipboard!</h4>
+                    <TypesExample classe="col-1 botao"/>
+            </div>
         </Tab>
     </Tabs>
     );
